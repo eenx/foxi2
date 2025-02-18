@@ -8,7 +8,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://eenx.github.io/",
-  base: 'foxi2',
   integrations: [
     tailwind(),
     icon(),
